@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Diary"
+    tools:showIn="@layout/activity_diary">
+
+    <ScrollView
+        android:layout_width="392dp"
+        android:layout_height="587dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/display"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/Information"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/avgnki"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="@string/nkitoday"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/food"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="bottom|center_vertical"
+                android:text="@string/food"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/breakfast"
+                android:layout_width="301dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="@string/breakfast"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/lunch"
+                android:layout_width="269dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="@string/lunch"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/dinner"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="@string/dinner"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/exercise"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:gravity="bottom|center_vertical"
+                android:text="@string/exercise"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/gym"
+                android:layout_width="259dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="@string/gym"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/sport"
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="@string/sport"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

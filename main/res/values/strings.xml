@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">NKICalculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_calculator">Calculator</string>
+    <string name="nki">Average daily NKI:</string>
+    <string name="title_activity_diary">Diary</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="food">Food</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="gym">Gym</string>
+    <string name="sport">Sport</string>
+    <string name="exercise">Exercise</string>
+    <string name="total">Total</string>
+    <string name="calculate">Calculate</string>
+    <string name="date">Enter the Date(dd/mm/yyyy)</string>
+    <string name="nkitoday">NKI</string>
+    <string name="calculator">Calculator</string>
+    <string name="overview">Overview</string>
+    <string name="Information">All values entered/displayed are in Calories(kcal)</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NKICalculator</string>
+    <string name="action_settings">Réglages</string>
+    <string name="nki">Moyenne quotidienne NKI:</string>
+    <string name="title_activity_calculator">Calculatrice</string>
+    <string name="food">Nourriture</string>
+    <string name="title_activity_diary">Journal</string>
+    <string name="title_dashboard">"Tableau de bord "</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="breakfast">"Petit Déjeuner "</string>
+    <string name="dinner">Dîner</string>
+    <string name="gym">Gym</string>
+    <string name="lunch">Déjeuner</string>
+    <string name="sport">Sport</string>
+    <string name="exercise">Exercise</string>
+    <string name="total">Total</string>
+    <string name="calculate">Calculer</string>
+    <string name="calculator">Calculatrice</string>
+    <string name="date">Entrez la Date(dd/mm/yyyy)</string>
+    <string name="nkitoday">NKI</string>
+    <string name="overview">"Vue d'Ensemble "</string>
+    <string name="Information">Toutes les valeurs entrées / affichées sont en Calories (kcal)</string>
+</resources>
